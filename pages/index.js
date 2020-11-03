@@ -4,10 +4,10 @@ import Gallery from '../components/Gallery';
 
 
 const images = [
-  '/static/imgs/water9s.jpg',
-  '/static/imgs/water10s.jpg',
-  '/static/imgs/water12s.jpg',
-  '/static/imgs/water13s.jpg'
+  '/static/image/water9S.jpg',
+  '/static/image/water10S.jpg',
+  '/static/image/water12S.jpg',
+  '/static/image/water13S.jpg'
 ];
 
 const Homepage = () => (
@@ -28,6 +28,9 @@ const Homepage = () => (
       <div className="">
         <Link href="/services">
           <a className="view-more">More Info</a>
+        </Link>
+        <Link href="/contactform">
+          <a className="view-more">Contact Us</a>
         </Link>
       </div>
     </div>

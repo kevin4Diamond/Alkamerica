@@ -4,7 +4,7 @@ const Logo = () => (
   <div className="logo">
     <Link href="/">
       <a>
-        <img src='/static/imgs/logo.jpg' />
+        <img src='/static/image/logo.jpg' />
       </a>
     </Link>
 

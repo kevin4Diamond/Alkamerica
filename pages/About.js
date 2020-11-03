@@ -1,6 +1,6 @@
 import Layout from '../components/Layout';
 
-const About = () => (
+const about = () => (
   <Layout>
     <h1>About Us</h1>
     <ul className="company-info">
@@ -11,7 +11,7 @@ const About = () => (
       <li>Irvine, CA</li>
     </ul>
     <div className="about-text">
-      <img src="/static/imgs/water5.jpg" />
+      <img src="/static/image/water5.jpg" />
       <p>
         We are in the age of environmental changes. Alkamerica is a true believer of healthy living as we have faith in preventive measures rather than having to wait for  problems to arrive then seeking for the cures. There are many alkaline machines in the market, but Alkamerica trusts in Japanese technology. We stand by the quality of our products and our excellent customer service as we present only the best to our customers.
       </p>
@@ -50,4 +50,4 @@ const About = () => (
   </Layout>
 );
 
-export default About;
+export default about;

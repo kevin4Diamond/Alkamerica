@@ -47,7 +47,7 @@ export default () => {
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }))
     axios({
       method: 'POST',
-      url: 'https://formspree.io/mjvgkrdy]',
+      url: 'https://formspree.io/mjvgkrdy',
       data: inputs
     })
       .then(response => {
@@ -65,8 +65,9 @@ export default () => {
     <main>
       <h1>Contact Us</h1>
       <hr />
-      <form onSubmit={handleOnSubmit}>
+      <form onSubmit={handleOnSubmit} action="https://formspree.io/mjvgkrdy" method="POST">
         <label htmlFor="name">Name</label>
+				
 				<input
           id="name"
           type="text"
