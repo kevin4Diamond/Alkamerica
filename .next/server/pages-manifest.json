@@ -4,7 +4,6 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/services": "pages/services.js",
-  "/about": "pages/about.js",
   "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/contactform": "pages/contactform.js"
+  "/about": "pages/about.js"
 }
